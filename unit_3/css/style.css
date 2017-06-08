@@ -1,12 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One|Raleway');
 body {
 	background-color: #7A0000;
 	color: white;
-	font-family: Helvetica: sans-serif;
 	text-align: center;
 	list-style-type: none:;
-
+	margin:2em;
+	line-height:1.5em;
+	width:80%;
 }
 img {
 	width: 60%
 }
- 
+h1 {
+	font-family:'Fauna One', serif;
+	font-weight: bold 
+}
+h2 {
+	font-family:'Raleway', sans-serif;
+}
+h3, p, li {
+	font-family: 'Fauna One', serif;
+}
+hr {
+	width:60%;
+}
+h3 {
+	
+	text-align:justify;
+}
