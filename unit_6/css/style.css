@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Fauna+One|Raleway');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;}
+body {
+	background-color: #7A0000;
+	color: white;
+	text-align: center;
+	list-style-type: none:;
+	margin:5em;
+	line-height:1.5em;
+	width:80%;
+}
+img {
+	width: 60%;
+}
+h1 {
+	font-family:'Fauna One', serif;
+	font-weight: bold 
+}
+h2 {
+	font-family:'Raleway', sans-serif;
+}
+h3, p, li {
+	font-family: 'Fauna One', serif;
+
+}
+hr {
+	width:60%;
+}
+h3 {
+	
+	text-align:center;
+}
+.images {
+	float:left;
+	width:33.33%;
+	height: 200px;
+	overflow:hidden;
+}
+.wrapper{
+	text-align: center:;
+}
+header{
+	background-color: #ffed74;
+	border:1px black solid;
+	padding:20px;
+}
+article{
+	background-color: #e89c6c;
+	border:1px black solid;
+	padding:20px;
+}
+section, div {
+	background-color: #ffe2b8;
+	border:1px black solid;
+	padding:20px;
+}
+
+#two_column{
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+.column{
+	width: 33.33%;
+	height: 300px;
+	padding: 20px;
+	margin: 0;
+	float: left;
+}
+
+#column1{
+	background-color: #ac54ff;
+}
+
+#column2 {
+	background-color: #5485ff;
+}
+
+#column3 {
+	background-color: #47fff2;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: "hello";
+clear: both;
+height: 0;
+}
